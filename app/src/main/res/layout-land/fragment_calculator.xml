@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.wingoku.calculator.MainActivity"
+    android:weightSum="1"
+    android:background="@color/calculator_fragment_background_color">
+
+    <include
+        android:id="@+id/layout_display"
+        layout="@layout/layout_calc_display"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.45"
+        />
+
+    <include
+       layout="@layout/layout_num_pad"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:layout_weight="0.55"
+       android:background="@color/num_pad_background_color"/>
+
+</LinearLayout>

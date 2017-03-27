@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+    <string name="num_4">4</string>
+    <string name="num_5">5</string>
+    <string name="num_6">6</string>
+    <string name="num_7">7</string>
+    <string name="num_8">8</string>
+    <string name="num_9">9</string>
+    <string name="num_0">0</string>
+    <string name="string_pie">π</string>
+    <string name="string_e">e</string>
+    <string name="string_power">^</string>
+    <string name="string_del">DEL</string>
+    <string name="string_num_7">7</string>
+    <string name="string_num_8">8</string>
+    <string name="string_num_9">9</string>
+    <string name="string_divide">/</string>
+    <string name="string_num_4">4</string>
+    <string name="string_num_5">5</string>
+    <string name="string_num_6">6</string>
+    <string name="string_multiply">x</string>
+    <string name="string_num_1">1</string>
+    <string name="string_num_2">2</string>
+    <string name="string_num_3">3</string>
+    <string name="string_minus">-</string>
+    <string name="string_decimal">.</string>
+    <string name="string_num_0">0</string>
+    <string name="string_equal">=</string>
+    <string name="string_plus">+</string>
+    <string name="string_bad_expression">Bad Expression</string>
+    <string name="string_empty" />
+    <string name="splash_screen_animation_file_name">atm_calculator.json</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="num_pad_cell_height">80dp</dimen> <!--87-->
+
+    <dimen name="display_result_text_size">23sp</dimen>
+    <dimen name="display_expression_text_size">55sp</dimen>
+</resources>

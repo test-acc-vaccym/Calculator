@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="num_pad_cell_height">135dp</dimen> <!--145-->
+
+    <dimen name="num_pad_button_text_size">36sp</dimen>
+    <dimen name="display_result_text_size">50sp</dimen>
+    <dimen name="display_expression_text_size">90sp</dimen>
+    <dimen name="display_expression_text_view_margin_top">23dp</dimen>
+    <dimen name="display_result_text_view_margin_top">40dp</dimen>
+</resources>

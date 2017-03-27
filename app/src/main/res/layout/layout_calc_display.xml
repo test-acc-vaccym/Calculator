@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- View for Success circular reveal animation -->
+    <View
+        android:id="@+id/view_success"
+        android:background="@color/success_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:scrollHorizontally="true"
+        android:visibility="invisible"/>
+
+    <!-- View for error circular reveal animation -->
+    <View
+        android:id="@+id/view_error"
+        android:background="@color/error_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/display_layout_margin">
+
+    <TextView
+        android:id="@+id/tv_expression"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/display_expression_text_view_margin_top"
+        android:textSize="@dimen/display_expression_text_size"
+        tools:text="1+1"
+        android:ellipsize="start"
+        android:lines="1"
+        android:maxLines="1"
+        android:gravity="end"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_marginTop="@dimen/display_result_text_view_margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/display_result_text_size"
+        android:lines="1"
+        android:maxLines="1"
+        android:ellipsize="start"
+        tools:text="Bad Expression"
+        android:gravity="end"/>
+
+    </LinearLayout>
+
+</FrameLayout>

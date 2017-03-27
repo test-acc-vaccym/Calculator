@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#448aff</color>
+    <color name="colorPrimaryDark">#2979FF</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Ripple color when a button is pressed in a pad. -->
+    <color name="num_pad_button_ripple_color">#33FFFFFF</color>
+    <!-- Text color for a button in a pad. -->
+    <color name="pad_button_text_color">#FFFFFF</color>
+    <color name="splash_screen_text_color">#FFFFFF</color>
+    <color name="splash_screen_animation_view_background">#FFFFFF</color>
+    <color name="calculator_fragment_background_color">#FFFFFF</color>
+
+    <color name="num_pad_background_color">#424242</color>
+    <color name="error_color">#F44336</color>
+    <color name="success_color">#448aff</color>
+</resources>

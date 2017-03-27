@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="num_pad_cell_height">105dp</dimen> <!--135-->
+
+    <dimen name="num_pad_button_text_size">30sp</dimen>
+    <dimen name="display_result_text_size">45sp</dimen>
+    <dimen name="display_expression_text_size">85sp</dimen>
+
+    <dimen name="display_expression_text_view_margin_top">30dp</dimen>
+    <dimen name="display_result_text_view_margin_top">70dp</dimen>
+
+    <dimen name="lottie_animation_view_width">460dp</dimen>
+    <dimen name="lottie_animation_view_height">460dp</dimen>
+</resources>

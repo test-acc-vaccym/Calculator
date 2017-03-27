@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="num_pad_cell_height">85dp</dimen>
+
+    <dimen name="display_result_text_size">37sp</dimen>
+    <dimen name="display_expression_text_size">60sp</dimen>
+
+    <dimen name="lottie_animation_view_width">320dp</dimen>
+    <dimen name="lottie_animation_view_height">320dp</dimen>
+</resources>

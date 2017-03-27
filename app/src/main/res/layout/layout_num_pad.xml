@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/num_pad_background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button_pie"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_pie"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+        <Button
+            android:id="@+id/button_e"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_e"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+        <Button
+            android:id="@+id/button_log"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_power"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+        <Button
+            android:id="@+id/button_delete"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_del"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button_7"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_num_7"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+        <Button
+            android:id="@+id/button_8"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_num_8"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+        <Button
+            android:id="@+id/button_9"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_num_9"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+        <Button
+            android:id="@+id/button_divide"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_divide"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button_4"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_num_4"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+        <Button
+            android:id="@+id/button_5"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_num_5"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+        <Button
+            android:id="@+id/button_6"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_num_6"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+        <Button
+            android:id="@+id/button_multiply"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_multiply"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button_1"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_num_1"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+        <Button
+            android:id="@+id/button_2"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_num_2"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+        <Button
+            android:id="@+id/button_3"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_num_3"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+        <Button
+            android:id="@+id/button_minus"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_minus"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button_decimal"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_decimal"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+        <Button
+            android:id="@+id/button_0"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_num_0"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+        <Button
+            android:id="@+id/button_equal"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_equal"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+        <Button
+            android:id="@+id/button_plus"
+            style="@style/NumPadButtonStyle"
+            android:text="@string/string_plus"
+            android:textSize="@dimen/num_pad_button_text_size"
+            android:layout_width="@dimen/num_pad_cell_width"
+            android:layout_height="@dimen/num_pad_cell_height"
+            android:layout_weight="@dimen/num_pad_cell_weight"/>
+
+    </LinearLayout>
+
+</LinearLayout>
