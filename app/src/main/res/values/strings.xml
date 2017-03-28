@@ -34,4 +34,7 @@
     <string name="string_bad_expression">Bad Expression</string>
     <string name="string_empty" />
     <string name="splash_screen_animation_file_name">atm_calculator.json</string>
+    <string name="string_mxparser_compliant_e">*e</string>
+    <string name="string_mxparser_compliant_pi">*pi</string>
+    <string name="string_mxparser_compliant_multiply">*</string>
 </resources>

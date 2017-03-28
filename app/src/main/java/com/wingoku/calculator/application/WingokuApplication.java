@@ -18,6 +18,7 @@ public class WingokuApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+
         // Building dagger DI component
         mExpressionFactoryComponent = DaggerExpressionFactoryComponent.builder().
                 expressionFactoryModule(new ExpressionFactoryModule(new ExpressionFactory(this))).build();

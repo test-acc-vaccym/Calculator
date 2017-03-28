@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
     // this idling resource will be used by Espresso to wait for and synchronize with RetroFit Network call
     // https://youtu.be/uCtzH0Rz5XU?t=3m23s
     private CountingIdlingResource mEspressoTestIdlingResource;
-
     private FragmentManager mFManager;
 
     @BindView(R.id.fragment_container)

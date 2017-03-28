@@ -7,6 +7,7 @@ package com.wingoku.calculator.utils;
 public class Constants {
     public final static String KEY_PRECALCULATED_RESULT_STRING = "preCalculatedResultString";
     public final static String KEY_EXPRESSION_STRING = "expressionString";
+    public final static String KEY_EVALUATION_EXPRESSION = "mxParserEvaluationExpressionString";
 
     public final static int DECIMAL_PLACES = 4;
 

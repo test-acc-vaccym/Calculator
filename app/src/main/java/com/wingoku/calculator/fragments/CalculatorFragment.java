@@ -76,6 +76,7 @@ public class CalculatorFragment extends Fragment{
         // saving data to repopulate calculator display or view upon recreation of activity caused by orientation change
         outState.putString(Constants.KEY_PRECALCULATED_RESULT_STRING, mResultString);
         outState.putString(Constants.KEY_EXPRESSION_STRING, mExpressionString);
+        outState.putString(Constants.KEY_EVALUATION_EXPRESSION, mExpressionFactory.getEvaluationExpression());
     }
 
     @Override
@@ -84,7 +85,8 @@ public class CalculatorFragment extends Fragment{
         if(savedInstanceState != null) {
             mResultString = savedInstanceState.getString(Constants.KEY_PRECALCULATED_RESULT_STRING, getString(R.string.string_empty));
             mExpressionString = savedInstanceState.getString(Constants.KEY_EXPRESSION_STRING, getString(R.string.string_empty));
-            mExpressionFactory.createExpression(mExpressionString);
+            mExpressionFactory.setDisplayExpressionString(mExpressionString);
+            mExpressionFactory.setEvaluationExpressionString(savedInstanceState.getString(Constants.KEY_EVALUATION_EXPRESSION, getString(R.string.string_empty)));
             mExpressionTV.setText(mExpressionString);
             mResultTV.setText(mResultString);
         }
@@ -148,7 +150,11 @@ public class CalculatorFragment extends Fragment{
      * @param finalize Show the final result. Set it TRUE if the user has pressed = button
      */
     private void evaluateExpression(boolean finalize) {
-        mExpressionEvaluator.setExpressionString(mExpressionFactory.getEvaluationExpression());
+        String evaluationMathExpression = mExpressionFactory.getEvaluationExpression();
+        if(evaluationMathExpression.length() == 0)
+            return;
+
+        mExpressionEvaluator.setExpressionString(evaluationMathExpression);
         double evaluatedResult = MathFunctions.round(mExpressionEvaluator.calculate(), Constants.DECIMAL_PLACES);
 
         if(!Double.isNaN(evaluatedResult)) {
