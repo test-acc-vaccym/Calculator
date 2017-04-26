@@ -1,4 +1,5 @@
 language: android
+jdk: oraclejdk8
 # Emulator Management: Create, Start and Wait
 before_install:
  - chmod +x gradlew  # REASON: Gradlew doesn't have executable permission by default in your local and remote git repo. To fix it see the following link or add this line in the .yml file
