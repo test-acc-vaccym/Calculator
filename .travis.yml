@@ -4,11 +4,11 @@ jdk: oraclejdk8
 before_install:
  - chmod +x gradlew  # REASON: Gradlew doesn't have executable permission by default in your local and remote git repo. To fix it see the following link or add this line in the .yml file
  #http://stackoverflow.com/a/33820642/1250107
- - mkdir "$ANDROID_SDK/licenses" || true
- - echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "$ANDROID_SDK/licenses/android-sdk-license"
- - echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_SDK/licenses/android-sdk-preview-license
 
 before_script:
+#      - mkdir "$ANDROID_SDK/licenses" || true
+#      - echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "$ANDROID_SDK/licenses/android-sdk-license"
+#      - echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_SDK/licenses/android-sdk-preview-license
       - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
       - emulator -avd test -no-audio -no-window &
       - android-wait-for-emulator
@@ -17,8 +17,8 @@ android:
   components:
     # Uncomment the lines below if you want to
     # use the latest revision of Android SDK Tools
-    # - tools
-    # - platform-tools
+     - tools
+     - platform-tools
 
     # The BuildTools version used by your project
     - build-tools-25.0.2
